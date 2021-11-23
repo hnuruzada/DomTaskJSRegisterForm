@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container box">
+        <form action="" method="post">
+            <label for="firstname">Ad:</label><br>
+            <input type="text" class="form-control" id="firstname" placeholder="Adinizi girin" required><br>
+            <span class="text-danger d-none nameEr" id="nameId">Bos alani doldur</span><br>
+            <label for="surname">Soyad:</label><br>
+            <input type="text" class="form-control" id="surname" placeholder="Soyad girin" required><br>
+            <span class="text-danger d-none surnameEr" id="soyadId">Bos alani doldur</span><br>
+            <label for="mail">Email:</label><br>
+            <input type="email"  class="form-control" placeholder="Email girin" id="mail"><br>
+            <span class="text-danger d-none mailEr" id="mailId">Email Girin!</span><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" placeholder="Sifrenizi girin" class="form-control"><br>
+            <label for="confirmpass">Confirm Password:</label><br>
+            <input type="password" id="confirmpass" placeholder="Tekrar sifre girin" class="form-control"><br>
+            <span class="text-danger d-none passEr" id="pswId">Sifreler eyni deyil:</span><br>
+            <button type="button" class="btn btn-outline-success mt-5">Submit</button>
+        </form>
+    </div>
+
+    <script src="./assets/JS/script.js"></script>
+</body>
+</html>
